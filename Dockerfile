@@ -9,6 +9,12 @@ RUN groupadd -r binary \
 USER binary
 WORKDIR /home/binary
 
-RUN sudo apt install -y build-essential
+RUN sudo apt install -y \
+  build-essential \
+  c++filt \
+  gdb \
+  ltrace \
+  man \
+  strace
 
 CMD ["/bin/bash"]
