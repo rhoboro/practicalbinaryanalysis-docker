@@ -5,12 +5,14 @@ The following tools are installed.
 - c++filt
 - gcc
 - gdb
+- hexedit
 - ltrace
 - man
 - objdump
 - readelf
 - strace
 - strip
+- upx
 
 ```sh
 $ wget -O - 'https://practicalbinaryanalysis.com/file/pba-code.tar.gz' | tar zxvf -

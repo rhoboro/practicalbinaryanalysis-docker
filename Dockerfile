@@ -13,8 +13,13 @@ RUN sudo apt install -y \
   build-essential \
   c++filt \
   gdb \
+  hexedit \
+  libbfd-dev \
+  libcapstone-dev \
+  libcapstone3 \
   ltrace \
   man \
-  strace
+  strace \
+  upx
 
 CMD ["/bin/bash"]
