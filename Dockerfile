@@ -10,6 +10,7 @@ USER binary
 WORKDIR /home/binary
 
 RUN sudo apt install -y \
+  binutils-dev \
   build-essential \
   c++filt \
   gdb \
@@ -17,6 +18,7 @@ RUN sudo apt install -y \
   libbfd-dev \
   libcapstone-dev \
   libcapstone3 \
+  libelf-dev \
   ltrace \
   man \
   strace \
