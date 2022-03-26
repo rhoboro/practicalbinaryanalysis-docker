@@ -21,6 +21,7 @@ RUN sudo apt install -y \
   libelf-dev \
   ltrace \
   man \
+  nasm \
   strace \
   upx
 
